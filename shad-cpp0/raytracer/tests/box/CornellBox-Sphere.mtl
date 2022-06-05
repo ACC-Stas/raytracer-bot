@@ -1,0 +1,90 @@
+# The sphere Cornell Box as seen in Henrik Jensen's 
+# "Realistic Image Synthesis Using Photon Mapping" (Page 107 Fig. 9.10) in OBJ format.
+# Note that the real box is not a perfect cube, so
+# the faces are imperfect in this data set.
+#
+# Created by Guedis Cardenas and Morgan McGuire at Williams College, 2011
+# Released into the Public Domain.
+#
+# http://graphics.cs.williams.edu/data
+# http://www.graphics.cornell.edu/online/box/data.html
+# http://www.cs.cmu.edu/~djames/15-864/pics/cornellBox.jpg
+#
+
+
+newmtl leftSphere
+    #Ks 0.95 0.95 0.95
+    #Kd 0.05 0.05 0.05
+    #Ka 0.01 0.01 0.01
+    al 0.0 0.8 0.0
+    Ns 1024
+    illum 5
+    
+newmtl rightSphere
+    Tf 0.10 0.10 0.10
+    #Kd 0.02 0.02 0.02
+    #Ka 0.005 0.005 0.005
+    al 0.0 0.3 0.7
+    Ns 1024
+    Ni 1.8
+    d 0.5
+    illum 7
+   
+newmtl floor
+    Ns 10.0000
+    Ni 1.5000
+    illum 2
+    Kd 0.7250 0.9100 0.8800
+    al 0.5 0 0
+	Ks 1.5 1.5 1.5
+
+newmtl ceiling
+    Ns 1024.0000
+    Ni 1.5000
+    illum 2
+    Kd 0.200 0.2000 0.5000
+    Ks 0.3 0.3 0.3
+    #al 0.3 0.7 0 0
+
+newmtl backWall
+	Ns 10.0000
+	Ni 1.5000
+	illum 2
+    Kd 0.7250 0.9100 0.8800
+    al 0.5 0.0 0
+    Ks 1.5 1.5 1.5
+	#Kd 0.07250 0.4100 0.06800
+	#Ks 0.0000 0.0000 0.0000
+	#Ke 0.0000 0.0000 0.0000
+
+newmtl rightWall
+    Ns 10.0000
+    illum 2
+    Kd 0.161 0.133 0.427
+    #Ks 1.3 1.3 1.3
+    al 0.8 0 0
+    
+newmtl leftWall
+	Ns 10.0000
+	illum 2
+	Kd 0.3300 0.0650 0.0500
+	Ks 0.0 0.0 0.0
+    al 0.8 0 0
+
+newmtl wallBehind
+    Ns 10.0000
+    illum 2
+    Kd 0.2 0.7 0.8
+    Ks 0 0 0
+
+newmtl light
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7800 0.7800 0.7800
+	Kd 0.7800 0.7800 0.7800
+    Ke 1 1 1
+	Ks 0 0 0

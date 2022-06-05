@@ -1,0 +1,7 @@
+{
+    "allow_change": ["../raytracer-geom/*.h", "../raytracer-reader/*.h", "../raytracer/*.h", "readme.md"],
+    "linter": true,
+    "tests": ["test_raytracer_debug"],
+    "solutions": "private",
+    "build_type": "RELEASE"
+}

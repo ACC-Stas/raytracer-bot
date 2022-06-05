@@ -1,0 +1,7 @@
+{
+    "allow_change": ["*.h"],
+    "linter": true,
+    "tests": ["test_raytracer_geom"],
+    "solutions": "private",
+    "build_type": "RELEASE"
+}
